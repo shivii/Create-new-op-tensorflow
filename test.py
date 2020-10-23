@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-add_one_module = tf.load_op_library('/content/new_op/add_one.so')
+add_one_module = tf.load_op_library('/content/Create-new-op-tensorflow/add_one.so')
 
 #my_tensor = tf.constant([[1, 2], [3, 4]])
 #my_variable = tf.Variable(my_tensor)
